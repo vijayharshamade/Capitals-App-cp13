@@ -1,3 +1,15 @@
+Hint
+You can use the find() method to get the first item's value that satisfies the provided testing function. If no item is found, it returns undefined.
+
+let fruits = [
+{name: 'apples', quantity: 2},
+{name: 'bananas', quantity: 0},
+{name: 'cherries', quantity: 5}
+];
+let cherries = fruits.find(eachFruit => eachFruit.name === 'cherries');
+console.log(cherries);
+
+
 In this project, let's build a **Capitals App** by applying the concepts we have learned till now.
 
 ### Refer to the image below:
